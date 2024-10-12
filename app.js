@@ -1,6 +1,6 @@
 console.log("Actualiza la página");
-console.error("ctualiza la página");
-document.write("ctualiza la página");
-alert("ctualiza la página");
+console.error("Actualiza la página");
+document.write("Actualiza la página");
+alert("Actualiza la página");
 
 document.title = ("Inteligencia de Negocios");

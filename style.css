@@ -1,0 +1,126 @@
+/*imagen principal*/
+.main-image {
+    display: block;
+    width: 100vw;
+    height: 50vh;
+    border-radius: 1px;
+}
+
+/*menu*/
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px;
+    border-radius: 10px;
+    background-color: rgb(115, 179, 204);
+}
+
+a{
+    color: black;
+    text-decoration: black;
+}
+
+.center-text{
+    text-align: center;
+}
+
+/*titulo principal*/
+.titulo {
+    text-align: center;     
+    text-transform: uppercase; 
+    font-size: 30px; 
+    background-color:rgb(161, 209, 236);   
+    color:black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);    
+}
+
+/* Estilos formulario */
+#registro-form{
+    background-color: rgb(92, 92, 106);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 40px;
+    max-width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);;
+    color: white;
+    width: 80%;
+}
+
+#registro-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: white; 
+}
+
+#registro-form input, #registro-form select, #registro-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: black;
+}
+
+#registro-form input:focus, #registro-form select:focus, #registro-form textarea:focus {
+    border-color: #ffffff; 
+}
+
+#registro-form button {
+    background-color: white; 
+    color: #007bff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#registro-form button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/*footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*centrar iframe de video yt*/
+.video-centrado {
+    display: block;
+    margin: 20px auto;
+}
